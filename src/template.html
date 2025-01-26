@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <a href="#">Home</a>
+        <div class="dropdown">
+            <a href="#" class="dropdown-button">Dropdown</a>
+            <div>
+                <a href="#">Option 1</a>
+                <a href="#">Option 2</a>
+                <a href="#">Option 3</a>
+            </div>
+        </div>
+        <a href="#">Contact Us</a>
+        <a href="#">About</a>
+    </nav>
+
+    <div class="carousel" data-carousel>
+        <button class="carousel-button previous" data-carousel-button="previous">&#8656</button>
+        <button class="carousel-button next" data-carousel-button="next">&#8658</button>
+        <div class="navigation">
+            <button class="navigation-button" data-navigation-button data-active></button>
+            <button class="navigation-button" data-navigation-button></button>
+            <button class="navigation-button" data-navigation-button></button>
+        </div>
+        <ul data-slides>
+            <li class="slide" data-active>
+                <img src="https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Image 1">
+            </li>
+            <li class="slide">
+                <img src="https://images.unsplash.com/photo-1585202900154-cf66e657d8d6?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Image 2">
+            </li>
+            <li class="slide">
+                <img src="https://images.unsplash.com/photo-1668625598340-f07181c7a143?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Image 3">
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
